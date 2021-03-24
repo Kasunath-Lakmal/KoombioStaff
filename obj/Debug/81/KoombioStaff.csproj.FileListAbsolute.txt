@@ -39,6 +39,7 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\draw
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\rounded_edittext.xml
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\roundedbutton.xml
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layout\loginpage.xml
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layout\homepage.xml
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\R.cs.flag
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\R.txt
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\uploadflags.txt

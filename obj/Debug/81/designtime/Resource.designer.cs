@@ -2951,7 +2951,10 @@ namespace KoombioStaff
 			public const int design_text_input_password_icon = 2131689512;
 			
 			// aapt resource value: 0x7F030003
-			public const int Loginpage = 2130903043;
+			public const int Homepage = 2130903043;
+			
+			// aapt resource value: 0x7F030004
+			public const int Loginpage = 2130903044;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
