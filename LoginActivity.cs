@@ -36,23 +36,21 @@ namespace KoombioStaff
                
                 Intent i = new Intent(this, typeof(HomeActivity));
                 StartActivity(i);
-
                 
+            };
+
+            btn_forgot.Click += (sender, e) =>
+            {
+                Intent i = new Intent(this, typeof(ForgotPasswordpageActivity));
+                StartActivity(i);
+                
+
             };
 
 
 
-
-
-
-        }
+        }    
        
-       
-
-
-
-
-
-
+                              
     }
 }

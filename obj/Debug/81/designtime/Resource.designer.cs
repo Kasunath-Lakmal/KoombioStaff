@@ -1265,6 +1265,9 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F06001A
 			public const int accent_material_light = 2131099674;
 			
+			// aapt resource value: 0x7F050008
+			public const int background = 2131034120;
+			
 			// aapt resource value: 0x7F06001B
 			public const int background_floating_material_dark = 2131099675;
 			
@@ -1276,6 +1279,9 @@ namespace KoombioStaff
 			
 			// aapt resource value: 0x7F06001E
 			public const int background_material_light = 2131099678;
+			
+			// aapt resource value: 0x7F050006
+			public const int bgcolor = 2131034118;
 			
 			// aapt resource value: 0x7F06001F
 			public const int bright_foreground_disabled_material_dark = 2131099679;
@@ -1304,11 +1310,17 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F050004
 			public const int colorAccent = 2131034116;
 			
+			// aapt resource value: 0x7F050005
+			public const int colorbtncolor = 2131034117;
+			
 			// aapt resource value: 0x7F050002
 			public const int colorPrimary = 2131034114;
 			
 			// aapt resource value: 0x7F050003
 			public const int colorPrimaryDark = 2131034115;
+			
+			// aapt resource value: 0x7F050007
+			public const int descolor = 2131034119;
 			
 			// aapt resource value: 0x7F060027
 			public const int design_bottom_navigation_shadow_color = 2131099687;
@@ -1358,6 +1370,9 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F060036
 			public const int error_color_material = 2131099702;
 			
+			// aapt resource value: 0x7F050009
+			public const int fogetbgcolor = 2131034121;
+			
 			// aapt resource value: 0x7F060037
 			public const int foreground_material_dark = 2131099703;
 			
@@ -1370,8 +1385,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F06003A
 			public const int highlighted_text_material_light = 2131099706;
 			
-			// aapt resource value: 0x7F050005
-			public const int ic_launcher_background = 2131034117;
+			// aapt resource value: 0x7F050011
+			public const int ic_launcher_background = 2131034129;
 			
 			// aapt resource value: 0x7F06003B
 			public const int material_blue_grey_800 = 2131099707;
@@ -1483,6 +1498,9 @@ namespace KoombioStaff
 			
 			// aapt resource value: 0x7F06005F
 			public const int tooltip_background_light = 2131099743;
+			
+			// aapt resource value: 0x7F050010
+			public const int whitecolor = 2131034128;
 			
 			static Color()
 			{
@@ -2231,7 +2249,10 @@ namespace KoombioStaff
 			public const int avd_show_password = 2131296341;
 			
 			// aapt resource value: 0x7F010002
-			public const int button_bg_transparent = 2130771970;
+			public const int backarraow = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int button_bg_transparent = 2130771971;
 			
 			// aapt resource value: 0x7F090056
 			public const int design_bottom_navigation_item_background = 2131296342;
@@ -2251,11 +2272,14 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F09005B
 			public const int design_snackbar_background = 2131296347;
 			
-			// aapt resource value: 0x7F010003
-			public const int Gradient_Background = 2130771971;
-			
 			// aapt resource value: 0x7F010004
-			public const int koombio = 2130771972;
+			public const int Gradient_Background = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int headingGradient = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int koombio = 2130771974;
 			
 			// aapt resource value: 0x7F09005C
 			public const int navigation_empty_icon = 2131296348;
@@ -2296,11 +2320,11 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010005
-			public const int roundedbutton = 2130771973;
+			// aapt resource value: 0x7F010007
+			public const int roundedbutton = 2130771975;
 			
-			// aapt resource value: 0x7F010006
-			public const int rounded_edittext = 2130771974;
+			// aapt resource value: 0x7F010008
+			public const int rounded_edittext = 2130771976;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;
@@ -2393,14 +2417,17 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
 			
+			// aapt resource value: 0x7F020005
+			public const int backToLoginBtn = 2130837509;
+			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
 			
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020007
-			public const int btn_login_id = 2130837511;
+			// aapt resource value: 0x7F020011
+			public const int btn_login_id = 2130837521;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2478,7 +2505,13 @@ namespace KoombioStaff
 			public const int forever = 2131492873;
 			
 			// aapt resource value: 0x7F020006
-			public const int fpassword_id = 2130837510;
+			public const int forgot_button = 2130837510;
+			
+			// aapt resource value: 0x7F020010
+			public const int fpassword_id = 2130837520;
+			
+			// aapt resource value: 0x7F020003
+			public const int fpassword_img_id = 2130837507;
 			
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
@@ -2578,6 +2611,9 @@ namespace KoombioStaff
 			
 			// aapt resource value: 0x7F0C0053
 			public const int radio = 2131492947;
+			
+			// aapt resource value: 0x7F020004
+			public const int registered_emailid = 2130837508;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int right = 2131492948;
@@ -2708,11 +2744,11 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F020003
-			public const int textView1 = 2130837507;
+			// aapt resource value: 0x7F020007
+			public const int textView1 = 2130837511;
 			
-			// aapt resource value: 0x7F020004
-			public const int textView2 = 2130837508;
+			// aapt resource value: 0x7F020008
+			public const int textView2 = 2130837512;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
@@ -2759,8 +2795,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F020005
-			public const int user_name = 2130837509;
+			// aapt resource value: 0x7F020009
+			public const int user_name = 2130837513;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;
@@ -2951,10 +2987,13 @@ namespace KoombioStaff
 			public const int design_text_input_password_icon = 2131689512;
 			
 			// aapt resource value: 0x7F030003
-			public const int Homepage = 2130903043;
+			public const int ForgotPasswordpage = 2130903043;
 			
 			// aapt resource value: 0x7F030004
-			public const int Loginpage = 2130903044;
+			public const int Homepage = 2130903044;
+			
+			// aapt resource value: 0x7F030005
+			public const int Loginpage = 2130903045;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
