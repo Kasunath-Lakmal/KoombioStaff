@@ -2459,9 +2459,6 @@ namespace KoombioStaff
 			// aapt resource value: 0x7f080044
 			public const int auto = 2131230788;
 			
-			// aapt resource value: 0x7f08009c
-			public const int backToLoginBtn = 2131230876;
-			
 			// aapt resource value: 0x7f08002f
 			public const int beginning = 2131230767;
 			
@@ -2581,9 +2578,6 @@ namespace KoombioStaff
 			
 			// aapt resource value: 0x7f080058
 			public const int forever = 2131230808;
-			
-			// aapt resource value: 0x7f08009d
-			public const int forgot_button = 2131230877;
 			
 			// aapt resource value: 0x7f0800a1
 			public const int fpassword_id = 2131230881;
@@ -2894,6 +2888,12 @@ namespace KoombioStaff
 			// aapt resource value: 0x7f080013
 			public const int transition_transform = 2131230739;
 			
+			// aapt resource value: 0x7f08009c
+			public const int txtback_id = 2131230876;
+			
+			// aapt resource value: 0x7f08009d
+			public const int txtsubmit_id = 2131230877;
+			
 			// aapt resource value: 0x7f08002d
 			public const int uniform = 2131230765;
 			
@@ -3152,19 +3152,22 @@ namespace KoombioStaff
 			public const int notification_template_part_time = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int select_dialog_item_material = 2130968635;
+			public const int RecoverySelectionPage = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int select_dialog_multichoice_material = 2130968636;
+			public const int select_dialog_item_material = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int select_dialog_singlechoice_material = 2130968637;
+			public const int select_dialog_multichoice_material = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int support_simple_spinner_dropdown_item = 2130968638;
+			public const int select_dialog_singlechoice_material = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int tooltip = 2130968639;
+			public const int support_simple_spinner_dropdown_item = 2130968639;
+			
+			// aapt resource value: 0x7f040040
+			public const int tooltip = 2130968640;
 			
 			static Layout()
 			{

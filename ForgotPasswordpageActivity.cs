@@ -15,10 +15,33 @@ namespace KoombioStaff
     [Activity(Label = "ForgotPasswordpageActivity")]
     public class ForgotPasswordpageActivity : Activity
     {
+        TextView txt_back, txt_submit;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.ForgotPasswordpage);
+
+            txt_back = FindViewById<TextView>(Resource.Id.txtback_id);
+            txt_submit = FindViewById<TextView>(Resource.Id.txtsubmit_id);
+
+            txt_back.Click += (sender, e) =>
+            {
+                Intent i = new Intent(this, typeof(LoginActivity));
+                StartActivity(i);
+            };
+
+            txt_submit.Click += (sender, e) =>
+            {
+                Intent i = new Intent(this, typeof(LoginActivity));
+                StartActivity(i);
+            };
+
+            txt_submit.Click += (sender, e) =>
+            {
+                Intent i = new Intent(this, typeof(RecoverySelectionActivity));
+                StartActivity(i);
+
+            };
         }
     }
 }

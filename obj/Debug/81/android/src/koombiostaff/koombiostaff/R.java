@@ -2993,7 +2993,6 @@ containing a value of this type.
         public static final int always=0x7f080038;
         public static final int async=0x7f080056;
         public static final int auto=0x7f080044;
-        public static final int backToLoginBtn=0x7f08009c;
         public static final int beginning=0x7f08002f;
         public static final int blocking=0x7f080057;
         public static final int bottom=0x7f08003d;
@@ -3034,7 +3033,6 @@ containing a value of this type.
         public static final int fill_vertical=0x7f080048;
         public static final int fixed=0x7f080054;
         public static final int forever=0x7f080058;
-        public static final int forgot_button=0x7f08009d;
         public static final int fpassword_id=0x7f0800a1;
         public static final int fpassword_img_id=0x7f08009a;
         public static final int ghost_view=0x7f08000a;
@@ -3138,6 +3136,8 @@ containing a value of this type.
         public static final int transition_position=0x7f080011;
         public static final int transition_scene_layoutid_cache=0x7f080012;
         public static final int transition_transform=0x7f080013;
+        public static final int txtback_id=0x7f08009c;
+        public static final int txtsubmit_id=0x7f08009d;
         public static final int uniform=0x7f08002d;
         public static final int up=0x7f080009;
         public static final int useLogo=0x7f080026;
@@ -3219,11 +3219,12 @@ containing a value of this type.
         public static final int notification_template_media_custom=0x7f040038;
         public static final int notification_template_part_chronometer=0x7f040039;
         public static final int notification_template_part_time=0x7f04003a;
-        public static final int select_dialog_item_material=0x7f04003b;
-        public static final int select_dialog_multichoice_material=0x7f04003c;
-        public static final int select_dialog_singlechoice_material=0x7f04003d;
-        public static final int support_simple_spinner_dropdown_item=0x7f04003e;
-        public static final int tooltip=0x7f04003f;
+        public static final int recoveryselectionpage=0x7f04003b;
+        public static final int select_dialog_item_material=0x7f04003c;
+        public static final int select_dialog_multichoice_material=0x7f04003d;
+        public static final int select_dialog_singlechoice_material=0x7f04003e;
+        public static final int support_simple_spinner_dropdown_item=0x7f04003f;
+        public static final int tooltip=0x7f040040;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

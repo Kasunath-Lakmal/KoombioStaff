@@ -2417,9 +2417,6 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0018
 			public const int auto = 2131492888;
 			
-			// aapt resource value: 0x7F020005
-			public const int backToLoginBtn = 2130837509;
-			
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
 			
@@ -2503,9 +2500,6 @@ namespace KoombioStaff
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
-			
-			// aapt resource value: 0x7F020006
-			public const int forgot_button = 2130837510;
 			
 			// aapt resource value: 0x7F020010
 			public const int fpassword_id = 2130837520;
@@ -2789,6 +2783,12 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
 			
+			// aapt resource value: 0x7F020005
+			public const int txtback_id = 2130837509;
+			
+			// aapt resource value: 0x7F020006
+			public const int txtsubmit_id = 2130837510;
+			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;
 			
@@ -3039,6 +3039,9 @@ namespace KoombioStaff
 			
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
+			
+			// aapt resource value: 0x7F030006
+			public const int RecoverySelectionPage = 2130903046;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
