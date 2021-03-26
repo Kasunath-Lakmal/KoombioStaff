@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using System.Text.RegularExpressions;
 using Android.Views;
+using Android.Text;
 
 namespace KoombioStaff
 {
@@ -25,8 +26,7 @@ namespace KoombioStaff
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.Loginpage);
-          
+            SetContentView(Resource.Layout.Loginpage);         
 
 
             editUsername = FindViewById<EditText>(Resource.Id.user_name);
@@ -34,8 +34,8 @@ namespace KoombioStaff
             btn_forgot = FindViewById<Button>(Resource.Id.fpassword_id);
             btn_login = FindViewById<Button>(Resource.Id.btn_login_id);
 
-            btn_login.Click += (sender, e) => {
-               
+            btn_login.Click += (sender, e) => { 
+                
                 Intent i = new Intent(this, typeof(HomeActivity));
                 StartActivity(i);
                 
@@ -44,18 +44,13 @@ namespace KoombioStaff
             btn_forgot.Click += (sender, e) =>
             {
                 Intent i = new Intent(this, typeof(ForgotPasswordpageActivity));
-                StartActivity(i);
-                
+                StartActivity(i);                
 
-            };
-
-          
+            };         
 
 
 
-        }
-
-       
+        }    
        
                               
     }

@@ -15,11 +15,15 @@ namespace KoombioStaff
     [Activity(Label = "HomeActivity")]
     public class HomeActivity : Activity
     {
+
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.Homepage);
         }
+
+
     }
 }
