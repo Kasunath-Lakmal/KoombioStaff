@@ -16,6 +16,7 @@ namespace KoombioStaff
     public class ForgotPasswordpageActivity : Activity
     {
         TextView txt_back, txt_submit;
+        EditText editTextMobile;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -23,6 +24,8 @@ namespace KoombioStaff
 
             txt_back = FindViewById<TextView>(Resource.Id.txtback_id);
             txt_submit = FindViewById<TextView>(Resource.Id.txtsubmit_id);
+
+       
 
             txt_back.Click += (sender, e) =>
             {
@@ -38,10 +41,12 @@ namespace KoombioStaff
 
             txt_submit.Click += (sender, e) =>
             {
-                Intent i = new Intent(this, typeof(RecoverySelectionActivity));
+                Intent i = new Intent(this, typeof(VerificationPageActivity));
                 StartActivity(i);
 
             };
+
+            
         }
     }
 }

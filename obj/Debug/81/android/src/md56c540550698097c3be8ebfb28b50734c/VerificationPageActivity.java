@@ -1,7 +1,7 @@
 package md56c540550698097c3be8ebfb28b50734c;
 
 
-public class RecoverySelectionActivity
+public class VerificationPageActivity
 	extends android.app.Activity
 	implements
 		mono.android.IGCUserPeer
@@ -12,15 +12,15 @@ public class RecoverySelectionActivity
 		__md_methods = 
 			"n_onCreate:(Landroid/os/Bundle;)V:GetOnCreate_Landroid_os_Bundle_Handler\n" +
 			"";
-		mono.android.Runtime.register ("KoombioStaff.RecoverySelectionActivity, KoombioStaff", RecoverySelectionActivity.class, __md_methods);
+		mono.android.Runtime.register ("KoombioStaff.VerificationPageActivity, KoombioStaff", VerificationPageActivity.class, __md_methods);
 	}
 
 
-	public RecoverySelectionActivity ()
+	public VerificationPageActivity ()
 	{
 		super ();
-		if (getClass () == RecoverySelectionActivity.class)
-			mono.android.TypeManager.Activate ("KoombioStaff.RecoverySelectionActivity, KoombioStaff", "", this, new java.lang.Object[] {  });
+		if (getClass () == VerificationPageActivity.class)
+			mono.android.TypeManager.Activate ("KoombioStaff.VerificationPageActivity, KoombioStaff", "", this, new java.lang.Object[] {  });
 	}
 
 

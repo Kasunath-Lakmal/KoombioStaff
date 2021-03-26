@@ -12,6 +12,7 @@ using Android.Widget;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Text.RegularExpressions;
+using Android.Views;
 
 namespace KoombioStaff
 {
@@ -25,7 +26,8 @@ namespace KoombioStaff
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Loginpage);
-           // AddValidations();
+          
+
 
             editUsername = FindViewById<EditText>(Resource.Id.user_name);
             editPassword = FindViewById<EditText>(Resource.Id.user_name);
@@ -47,9 +49,13 @@ namespace KoombioStaff
 
             };
 
+          
 
 
-        }    
+
+        }
+
+       
        
                               
     }

@@ -10,6 +10,7 @@
     <color name ="descolor">#615f5f</color>
 
   <color name ="background">#bababa</color>
-  <color name ="fogetbgcolor">#7695ad</color>
+  <!--<color name ="fogetbgcolor">#7695ad</color>-->
   <color name ="whitecolor">#ffffff</color>
+  <color name ="redcolor">#d94d43</color>
 </resources>

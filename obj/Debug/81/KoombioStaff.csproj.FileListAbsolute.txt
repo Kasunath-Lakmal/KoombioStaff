@@ -42,7 +42,10 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layo
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layout\forgotpasswordpage.xml
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\backarraow.png
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\headinggradient.xml
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layout\recoveryselectionpage.xml
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layout\verificationpage.xml
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\forgotpwd1.png.png
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\forgotpwd.png.png
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\leftarrow.png
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\R.cs.flag
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\R.txt
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\uploadflags.txt
