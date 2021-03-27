@@ -669,7 +669,8 @@
     "MonoAndroid,Version=v8.1": [
       "Newtonsoft.Json >= 13.0.1",
       "SQLitePCLRaw.lib.e_sqlite3.osx >= 1.1.14",
-      "Xamarin.Android.Support.Design >= 28.0.0.3"
+      "Xamarin.Android.Support.Design >= 28.0.0.3",
+      "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.3"
     ]
   },
   "packageFolders": {
@@ -722,6 +723,10 @@
             "version": "[1.1.14, )"
           },
           "Xamarin.Android.Support.Design": {
+            "target": "Package",
+            "version": "[28.0.0.3, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
             "target": "Package",
             "version": "[28.0.0.3, )"
           }

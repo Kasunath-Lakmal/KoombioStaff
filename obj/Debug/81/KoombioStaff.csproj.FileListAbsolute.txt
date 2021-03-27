@@ -4,7 +4,6 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\KoombioStaf
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\KoombioStaff.KoombioStaff-Signed.apk
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\KoombioStaff.nuget.stamp
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\KoombioStaff.csprojAssemblyReference.cache
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\libraryimports.cache.stamp
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res.flag
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\KoombioStaff.csproj.CoreCompileInputs.cache
@@ -47,6 +46,8 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layo
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\forgotpwd1.png.png
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\forgotpwd.png.png
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\leftarrow.png
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\menu\toolbar_menu.xml
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\ic_info_outline_white_24dp.png
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\R.cs.flag
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\R.txt
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\uploadflags.txt

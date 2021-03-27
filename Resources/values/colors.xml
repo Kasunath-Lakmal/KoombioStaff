@@ -13,4 +13,9 @@
   <!--<color name ="fogetbgcolor">#7695ad</color>-->
   <color name ="whitecolor">#ffffff</color>
   <color name ="redcolor">#d94d43</color>
+  
+  <!--Add the toolbar color-->
+  <color name ="toolBarcolor">#0D0D33</color>
+  
+  
 </resources>

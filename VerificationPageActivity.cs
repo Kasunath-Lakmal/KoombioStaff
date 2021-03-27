@@ -9,11 +9,12 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Support.V7.App;
 
 namespace KoombioStaff
 {
     [Activity(Label = "RecoverySelectionActivity")]
-    public class VerificationPageActivity : Activity
+    public class VerificationPageActivity : AppCompatActivity
     {
 
         ImageView imageViewBackArrow; 
@@ -34,8 +35,33 @@ namespace KoombioStaff
             };
 
 
+            //add the toolbar
+            var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar_id_1);
+            SetSupportActionBar(toolbar);
+            SupportActionBar.Title = "                  Koombio Staff";
 
+        }
 
+        //add the tool bar
+            public override bool OnCreateOptionsMenu(IMenu menu)
+            {
+                MenuInflater.Inflate(Resource.Menu.toolbar_menu, menu);
+                return base.OnCreateOptionsMenu(menu);
             }
+
+            public override bool OnOptionsItemSelected(IMenuItem item)
+            {
+                string textToShow;
+
+                if (item.ItemId == Resource.Id.menu_info)
+                    textToShow = "Learn more about us on our website :)";
+                else
+                    textToShow = "Overfloooow";
+
+                Android.Widget.Toast.MakeText(this, item.TitleFormatted + ": " + textToShow,
+                    Android.Widget.ToastLength.Long).Show();
+
+                return base.OnOptionsItemSelected(item);
+            }
+        }
     }
-}
