@@ -1,1 +1,2 @@
-<resources><string name="app_name">KoombioStaff</string><string name="action_settings">Settings</string></resources>
+<resources><string name="app_name">KoombioStaff</string><string name="action_settings">Settings</string><!--Navigation Drawer color--><!--<string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">DemoLocalDB</string>--><string name="drawer_open">Open</string><string name="drawer_close">Close</string></resources>
