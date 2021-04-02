@@ -107,6 +107,7 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\R.txt
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\uploadflags.txt
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\Mono.Android.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\mscorlib.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\Plugin.Connectivity.Abstractions.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Core.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Json.pdb
@@ -126,6 +127,7 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Serv
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\KoombioStaff.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\Mono.Android.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\mscorlib.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\Plugin.Connectivity.Abstractions.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Core.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Json.pdb
@@ -142,10 +144,14 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Xml.Linq.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\Mono.Security.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\Plugin.Connectivity.dll.mdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Plugin.Connectivity.dll.mdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\KoombioStaff.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Mono.Android.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Mono.Security.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\mscorlib.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Plugin.Connectivity.Abstractions.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Core.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Data.pdb
@@ -161,3 +167,4 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Web.Services.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Xml.Linq.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Xml.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb

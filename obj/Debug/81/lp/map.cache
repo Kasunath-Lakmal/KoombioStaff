@@ -1,4 +1,7 @@
+DotNetHelper-Connectivity
 Newtonsoft.Json
+Plugin.Connectivity.Abstractions
+Plugin.Connectivity
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common

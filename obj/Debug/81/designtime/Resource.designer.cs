@@ -2480,8 +2480,14 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
+			// aapt resource value: 0x7F020008
+			public const int btn_back_id = 2130837512;
+			
 			// aapt resource value: 0x7F020019
 			public const int btn_login_id = 2130837529;
+			
+			// aapt resource value: 0x7F020009
+			public const int btn_submit_id = 2130837513;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2537,8 +2543,11 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F020010
 			public const int drawerLayout_id = 2130837520;
 			
+			// aapt resource value: 0x7F020026
+			public const int editText_mobile_id = 2130837542;
+			
 			// aapt resource value: 0x7F020007
-			public const int editText_mobile_id = 2130837511;
+			public const int edit_phone_id = 2130837511;
 			
 			// aapt resource value: 0x7F0C002C
 			public const int edit_query = 2131492908;
@@ -2630,11 +2639,11 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
 			
-			// aapt resource value: 0x7F020032
-			public const int menu_info = 2130837554;
-			
 			// aapt resource value: 0x7F020033
-			public const int menu_overflow = 2130837555;
+			public const int menu_info = 2130837555;
+			
+			// aapt resource value: 0x7F020034
+			public const int menu_overflow = 2130837556;
 			
 			// aapt resource value: 0x7F0C0044
 			public const int message = 2131492932;
@@ -2654,23 +2663,23 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020028
-			public const int nav_conacts = 2130837544;
-			
-			// aapt resource value: 0x7F020026
-			public const int nav_home = 2130837542;
-			
-			// aapt resource value: 0x7F020030
-			public const int nav_home1 = 2130837552;
-			
-			// aapt resource value: 0x7F020031
-			public const int nav_home2 = 2130837553;
-			
 			// aapt resource value: 0x7F020029
-			public const int nav_logout = 2130837545;
+			public const int nav_conacts = 2130837545;
 			
 			// aapt resource value: 0x7F020027
-			public const int nav_orders = 2130837543;
+			public const int nav_home = 2130837543;
+			
+			// aapt resource value: 0x7F020031
+			public const int nav_home1 = 2130837553;
+			
+			// aapt resource value: 0x7F020032
+			public const int nav_home2 = 2130837554;
+			
+			// aapt resource value: 0x7F020030
+			public const int nav_logout = 2130837552;
+			
+			// aapt resource value: 0x7F020028
+			public const int nav_orders = 2130837544;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2899,12 +2908,6 @@ namespace KoombioStaff
 			
 			// aapt resource value: 0x7F0C008B
 			public const int transition_transform = 2131493003;
-			
-			// aapt resource value: 0x7F020008
-			public const int txtback_id = 2130837512;
-			
-			// aapt resource value: 0x7F020009
-			public const int txtsubmit_id = 2130837513;
 			
 			// aapt resource value: 0x7F0C008C
 			public const int uniform = 2131493004;

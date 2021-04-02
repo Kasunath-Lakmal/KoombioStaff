@@ -74,10 +74,8 @@ namespace KoombioStaff
                         else
                         {
 
-                            Toast.MakeText(Application.Context, users.user_id + " Login Success..!", ToastLength.Long).Show();                        
-
+                            Toast.MakeText(Application.Context, users.user_id + " Login Success..!", ToastLength.Long).Show();                   
                            
-
                             Intent intent = new Intent(this, typeof(HomeActivity));
                             intent.PutExtra("user_id", Convert.ToString(users.user_id));
                             StartActivity(intent);
