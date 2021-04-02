@@ -5,6 +5,9 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Core.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.dll
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Json.dll
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Net.Http.dll
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Xml.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Xamarin.Android.Arch.Core.Common.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Xamarin.Android.Arch.Lifecycle.Common.dll
@@ -21,9 +24,6 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.AppCompat.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Net.Http.dll
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\netstandard.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Data.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Numerics.dll
@@ -34,3 +34,4 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Web.Services.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Xml.Linq.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Mono.Security.dll
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll

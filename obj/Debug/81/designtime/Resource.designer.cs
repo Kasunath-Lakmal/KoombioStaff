@@ -2465,8 +2465,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
-			// aapt resource value: 0x7F020022
-			public const int appbar = 2130837538;
+			// aapt resource value: 0x7F020023
+			public const int appbar = 2130837539;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -2480,8 +2480,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C001A
 			public const int bottom = 2131492890;
 			
-			// aapt resource value: 0x7F020018
-			public const int btn_login_id = 2130837528;
+			// aapt resource value: 0x7F020019
+			public const int btn_login_id = 2130837529;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2567,8 +2567,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F020006
 			public const int forgot_pwdimg_id = 2130837510;
 			
-			// aapt resource value: 0x7F020017
-			public const int fpassword_id = 2130837527;
+			// aapt resource value: 0x7F020018
+			public const int fpassword_id = 2130837528;
 			
 			// aapt resource value: 0x7F0C0034
 			public const int ghost_view = 2131492916;
@@ -2603,8 +2603,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C003D
 			public const int left = 2131492925;
 			
-			// aapt resource value: 0x7F020024
-			public const int leftArrow_id = 2130837540;
+			// aapt resource value: 0x7F020025
+			public const int leftArrow_id = 2130837541;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -2621,8 +2621,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x7F020021
-			public const int main_content = 2130837537;
+			// aapt resource value: 0x7F020022
+			public const int main_content = 2130837538;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -2630,11 +2630,11 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0043
 			public const int media_actions = 2131492931;
 			
-			// aapt resource value: 0x7F020031
-			public const int menu_info = 2130837553;
-			
 			// aapt resource value: 0x7F020032
-			public const int menu_overflow = 2130837554;
+			public const int menu_info = 2130837554;
+			
+			// aapt resource value: 0x7F020033
+			public const int menu_overflow = 2130837555;
 			
 			// aapt resource value: 0x7F0C0044
 			public const int message = 2131492932;
@@ -2645,8 +2645,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F020020
-			public const int navheader_username = 2130837536;
+			// aapt resource value: 0x7F020021
+			public const int navheader_username = 2130837537;
 			
 			// aapt resource value: 0x7F020012
 			public const int navigationView_id = 2130837522;
@@ -2654,23 +2654,23 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
 			
-			// aapt resource value: 0x7F020027
-			public const int nav_conacts = 2130837543;
-			
-			// aapt resource value: 0x7F020025
-			public const int nav_home = 2130837541;
-			
-			// aapt resource value: 0x7F020029
-			public const int nav_home1 = 2130837545;
-			
-			// aapt resource value: 0x7F020030
-			public const int nav_home2 = 2130837552;
-			
 			// aapt resource value: 0x7F020028
-			public const int nav_logout = 2130837544;
+			public const int nav_conacts = 2130837544;
 			
 			// aapt resource value: 0x7F020026
-			public const int nav_orders = 2130837542;
+			public const int nav_home = 2130837542;
+			
+			// aapt resource value: 0x7F020030
+			public const int nav_home1 = 2130837552;
+			
+			// aapt resource value: 0x7F020031
+			public const int nav_home2 = 2130837553;
+			
+			// aapt resource value: 0x7F020029
+			public const int nav_logout = 2130837545;
+			
+			// aapt resource value: 0x7F020027
+			public const int nav_orders = 2130837543;
 			
 			// aapt resource value: 0x7F0C0048
 			public const int none = 2131492936;
@@ -2699,8 +2699,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F020003
 			public const int pb = 2130837507;
 			
-			// aapt resource value: 0x7F020019
-			public const int pic = 2130837529;
+			// aapt resource value: 0x7F020020
+			public const int pic = 2130837536;
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
@@ -2873,8 +2873,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F020013
 			public const int toolbar_id = 2130837523;
 			
-			// aapt resource value: 0x7F020023
-			public const int toolbar_id_1 = 2130837539;
+			// aapt resource value: 0x7F020024
+			public const int toolbar_id_1 = 2130837540;
 			
 			// aapt resource value: 0x7F0C0084
 			public const int top = 2131492996;
@@ -2914,6 +2914,9 @@ namespace KoombioStaff
 			
 			// aapt resource value: 0x7F020016
 			public const int user_name = 2130837526;
+			
+			// aapt resource value: 0x7F020017
+			public const int user_password = 2130837527;
 			
 			// aapt resource value: 0x7F0C008E
 			public const int view_offset_helper = 2131493006;

@@ -109,10 +109,10 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\Mono.Androi
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\mscorlib.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Core.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.pdb
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Xml.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Json.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Net.Http.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Runtime.Serialization.pdb
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.ServiceModel.Internals.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Xml.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Data.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Numerics.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Transactions.pdb
@@ -122,15 +122,16 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Comp
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Web.Services.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.Xml.Linq.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\Mono.Security.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\System.ServiceModel.Internals.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\KoombioStaff.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\Mono.Android.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\mscorlib.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Core.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.pdb
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Xml.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Json.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Net.Http.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Xml.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Data.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Numerics.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Transactions.pdb
@@ -140,6 +141,7 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Web.Services.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.Xml.Linq.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\Mono.Security.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\KoombioStaff.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Mono.Android.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\Mono.Security.pdb
@@ -149,6 +151,7 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Data.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.IO.Compression.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Json.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Net.Http.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Numerics.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.pdb

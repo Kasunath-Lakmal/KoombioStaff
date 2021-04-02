@@ -51,6 +51,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Json" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
@@ -63,6 +65,7 @@
     <Compile Include="LogoutFragment.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MyOrdersFragment.cs" />
+    <Compile Include="usercollection.cs" />
     <Compile Include="VerificationPageActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +107,15 @@
     </PackageReference>
     <PackageReference Include="SQLitePCLRaw.lib.e_sqlite3.osx">
       <Version>1.1.14</Version>
+    </PackageReference>
+    <PackageReference Include="System.Collections">
+      <Version>4.3.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Net.Http">
+      <Version>4.3.2</Version>
+    </PackageReference>
+    <PackageReference Include="System.Runtime.Serialization.Primitives">
+      <Version>4.3.0</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
