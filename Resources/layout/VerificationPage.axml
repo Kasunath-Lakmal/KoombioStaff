@@ -61,7 +61,7 @@
 				android:id="@+id/textView1" />
 
 			 <EditText
-				android:id="@+id/editText_mobile_id"
+				android:id="@+id/editText_vcode_id"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:layout_marginTop="5dp"
@@ -75,7 +75,7 @@
 				android:textSize="16sp" />
 
 			 <Button
-				android="@+id/verificatio_btn_id"
+				android:id="@+id/verification_id"
 				android:text="verify code"
 				android:textColor="#ffffff"
 				android:textStyle="bold"

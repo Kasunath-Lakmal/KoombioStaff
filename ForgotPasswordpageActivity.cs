@@ -24,12 +24,13 @@ namespace KoombioStaff
     {
         Button btn_back_login, btn_otp_submit;
         EditText editTextMobile;
-        int i = 0;
+      
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.ForgotPasswordpage);
+            SetContentView(Resource.Layout.ForgotPasswordpage);       
+           
 
             btn_back_login = FindViewById<Button>(Resource.Id.btn_back_id);
             btn_otp_submit = FindViewById<Button>(Resource.Id.btn_submit_id);
@@ -39,7 +40,12 @@ namespace KoombioStaff
             btn_otp_submit.Click += (sender, e) =>
             {
 
-               Otp();                 
+               Otp();
+
+              Intent i = new Intent(Application.Context, typeof(VerificationPageActivity));
+            //i.PutExtra("rcs", JsonConvert.SerializeObject("user_id"));
+              StartActivity(i);             
+              
 
             };                         
 
@@ -80,7 +86,8 @@ namespace KoombioStaff
                         res = res.Replace(']', ' ');
                         res = res.Replace('"', ' ');
                     }
-                       //  usr = res;
+                       String  usr = res;
+                    // intent.putExtra("user_id", item);
                     Toast.MakeText(Application.Context, "OTP Sent..!", ToastLength.Long).Show();                  
 
                 }

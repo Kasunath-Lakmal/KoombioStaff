@@ -36,8 +36,12 @@ namespace KoombioStaff
             btn_forgot = FindViewById<Button>(Resource.Id.fpassword_id);
             btn_login = FindViewById<Button>(Resource.Id.btn_login_id);
 
+            
+            
+
             btn_login.Click += (sender, e) =>
             {
+               
                 //add api
 
                 using (var client = new HttpClient())

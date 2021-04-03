@@ -10,6 +10,11 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Support.V7.App;
+using Plugin.Connectivity;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace KoombioStaff
 {
@@ -17,21 +22,98 @@ namespace KoombioStaff
     public class VerificationPageActivity : AppCompatActivity
     {
 
-        ImageView imageViewBackArrow; 
+        ImageView imageViewBackArrow;
+        Button btnVerification;
+        EditText editTextVcode;
+
+      
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.VerificationPage);
 
-            imageViewBackArrow = FindViewById<ImageView>(Resource.Id.leftArrow_id);
+              imageViewBackArrow = FindViewById<ImageView>(Resource.Id.leftArrow_id);
+              btnVerification = FindViewById<Button>(Resource.Id.verification_id);
+              editTextVcode = FindViewById<EditText>(Resource.Id.editText_vcode_id);
+
+            //public CountryAdapter(List<CountryDatum> mData, Context context, onListClickedRowListner listner)
+            //{
+            //    this.mData = mData;
+            //    this.context = context;
+            //    this.listner = listner;
+
+          
+
+
+                btnVerification.Click += (sender, e) =>
+            {
+                // var obj = JsonConvert.DeserializeObject<int>(Intent.GetStringExtra("rcs"));
+                // get device id
+
+               
+                String getusr = Android.Provider.Settings.Secure.GetString(Android.App.Application.Context.ContentResolver, Android.Provider.Settings.Secure.AndroidId);
+
+                if (CrossConnectivity.Current.IsConnected)
+                {
+
+                    using (var client = new HttpClient())
+                    {
+                        var send = new Dictionary<string, string>
+                                {
+                                { "user_id",getusr },
+                                { "otp", editTextVcode.Text }
+                                };
+                        var stringContent = new FormUrlEncodedContent(send);
+                        client.BaseAddress = new Uri("https://api.koombiyodelivery.lk/");
+                        client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                        var response = client.PostAsync("api/delivery/Checkotp/users", stringContent).Result;
+
+
+                        string res = "";
+                        using (HttpContent content = response.Content)
+                        {
+                            // ... Read the string.
+                            Task<string> result = content.ReadAsStringAsync();
+                            res = Convert.ToString(result.Result);
+                            // res = Convert.ToString(result.Result);
+                            res = res.Replace('[', ' ');
+                            res = res.Replace(']', ' ');
+                            res = res.Replace('"', ' ');
+                        }
+
+
+                        //string getusr = res;
+
+                        Toast.MakeText(Application.Context, getusr, ToastLength.Long).Show();
+
+
+                        if (getusr != null && getusr != null && getusr != "" && getusr != "" && getusr != "0" && getusr != "0" && getusr == getusr)
+                        {
+                            Intent intent = new Intent(this, typeof(ChangePasswordlayoutActivity));
+                            intent.PutExtra("user_id", Convert.ToString(getusr));
+                            StartActivity(intent);
+
+
+
+                        }
+
+                    }
+                }
+                else
+                {
+                    Toast.MakeText(Application.Context, "No Internet Connection..!", ToastLength.Long).Show();
+
+                }
+                
+
+            };
 
 
             imageViewBackArrow.Click += (sender, e) =>
             {
-
                 Intent i = new Intent(this, typeof(ForgotPasswordpageActivity));
                 StartActivity(i);
-
             };
 
 
@@ -41,6 +123,10 @@ namespace KoombioStaff
             SupportActionBar.Title = "                  Koombio Staff";
 
         }
+
+       
+      
+    
 
         //add the tool bar
             public override bool OnCreateOptionsMenu(IMenu menu)
