@@ -59,13 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChangePasswordlayoutActivity.cs" />
-    <Compile Include="ContactFragment.cs" />
+    <Compile Include="PendinFragment.cs" />
     <Compile Include="ForgotPasswordpageActivity.cs" />
     <Compile Include="HomeActivity.cs" />
     <Compile Include="LoginActivity.cs" />
-    <Compile Include="LogoutFragment.cs" />
+    <Compile Include="PickedFragment.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="MyOrdersFragment.cs" />
+    <Compile Include="TotalPikupsFragment.cs" />
     <Compile Include="usercollection.cs" />
     <Compile Include="VerificationPageActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -351,17 +351,17 @@
     <AndroidResource Include="Resources\drawable\ic_menu_refresh.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\MyOrderslayout.axml">
+    <AndroidResource Include="Resources\layout\TotalPickupslayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Contactlayout.axml">
+    <AndroidResource Include="Resources\layout\Pendinlayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Logoutlayout.axml">
+    <AndroidResource Include="Resources\layout\Pickedlayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -369,6 +369,9 @@
     <AndroidResource Include="Resources\layout\ChangePasswordlayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\splash_screen_bg.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

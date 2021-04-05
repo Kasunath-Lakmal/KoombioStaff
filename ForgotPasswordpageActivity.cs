@@ -40,13 +40,10 @@ namespace KoombioStaff
             btn_otp_submit.Click += (sender, e) =>
             {
 
-               Otp();
-
-              Intent i = new Intent(Application.Context, typeof(VerificationPageActivity));
-            //i.PutExtra("rcs", JsonConvert.SerializeObject("user_id"));
+              Otp();
+              Intent i = new Intent(Application.Context, typeof(VerificationPageActivity));          
               StartActivity(i);             
               
-
             };                         
 
             //add the toolbar

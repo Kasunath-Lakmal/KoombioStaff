@@ -1,6 +1,4 @@
-﻿
-
-using Android.App;
+﻿using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
@@ -11,7 +9,6 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using V7Toolbar = Android.Support.V7.Widget.Toolbar;
 using System;
-
 
 namespace KoombioStaff
 {
@@ -42,13 +39,11 @@ namespace KoombioStaff
 
             navigationView = FindViewById<NavigationView>(Resource.Id.navigationView_id);
             SetupDrawerContent(navigationView);
-
             View header = navigationView.GetHeaderView(0);
             TextView navheader_username = header.FindViewById<TextView>(Resource.Id.navheader_username);
             navheader_username.Text = "kasunath lakmal";
           
-
-            //ent to Menu
+           //ent to Menu
         }
 
         #region Menu
@@ -60,21 +55,21 @@ namespace KoombioStaff
                 e.MenuItem.SetChecked(true);
                 FragmentTransaction ft = this.FragmentManager.BeginTransaction();
                
-                 if (e.MenuItem.ItemId == Resource.Id.nav_orders)
+                 if (e.MenuItem.ItemId == Resource.Id.nav_Total_pickups)
                 {
-                    MyOrdersFragment mf = new MyOrdersFragment();
+                    TotalPikupsFragment mf = new TotalPikupsFragment();
                     ft.Replace(Resource.Id.linear1, mf);
                 }
 
-                else if (e.MenuItem.ItemId == Resource.Id.nav_conacts)
+                else if (e.MenuItem.ItemId == Resource.Id.nav_pendin)
                 {
-                    ContactFragment cf = new ContactFragment();
+                    PendinFragment cf = new PendinFragment();
                    ft.Replace(Resource.Id.linear1, cf);
                 }
 
-                else if (e.MenuItem.ItemId == Resource.Id.nav_logout)
+                else if (e.MenuItem.ItemId == Resource.Id.nav_picked)
                 {
-                    LogoutFragment lf = new LogoutFragment();
+                    PickedFragment lf = new PickedFragment();
                     ft.Replace(Resource.Id.linear1, lf);
                 }
 
@@ -84,12 +79,12 @@ namespace KoombioStaff
             };
         }
 
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            navigationView.InflateMenu(Resource.Menu.menu_main);
-            return true;
-        }
-        //end of menu
-        #endregion Menu
+            public override bool OnCreateOptionsMenu(IMenu menu)
+            {
+                navigationView.InflateMenu(Resource.Menu.menu_main);
+                return true;
+            }
+            //end of menu
+            #endregion Menu
     }
 }

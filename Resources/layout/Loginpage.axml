@@ -59,6 +59,8 @@
 						android:id="@+id/user_name"
 						android:layout_width="fill_parent" 
 						android:layout_height="wrap_content" 
+						android:singleLine="true"
+						android:maxLines="1"
 						android:padding="8dp"
 						android:hint="User Name"
 						android:layout_marginTop="30dp"					
@@ -68,14 +70,15 @@
 						android:id="@+id/user_password"
 						android:layout_width="fill_parent" 
 						android:layout_height="wrap_content" 
+						android:singleLine="true"
+						android:maxLines="1"
 						android:padding="8dp"
 						android:hint="Password"
-						android:layout_marginTop="30dp"					
 						android:inputType="textPassword"
-						android:background="@drawable/rounded_edittext" />			     
+						android:layout_marginTop="30dp"							
+						android:background="@drawable/rounded_edittext" />	   
 
 				
-
 					<Button
 						android:id="@+id/fpassword_id"
 						android:text="                                              Forgot password?       "

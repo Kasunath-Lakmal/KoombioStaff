@@ -21,37 +21,23 @@ namespace KoombioStaff
     [Activity(Label = "RecoverySelectionActivity")]
     public class VerificationPageActivity : AppCompatActivity
     {
-
         ImageView imageViewBackArrow;
         Button btnVerification;
-        EditText editTextVcode;
-
-      
+        EditText editTextVcode;      
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.VerificationPage);
 
-              imageViewBackArrow = FindViewById<ImageView>(Resource.Id.leftArrow_id);
-              btnVerification = FindViewById<Button>(Resource.Id.verification_id);
-              editTextVcode = FindViewById<EditText>(Resource.Id.editText_vcode_id);
-
-            //public CountryAdapter(List<CountryDatum> mData, Context context, onListClickedRowListner listner)
-            //{
-            //    this.mData = mData;
-            //    this.context = context;
-            //    this.listner = listner;
-
-          
-
+            imageViewBackArrow = FindViewById<ImageView>(Resource.Id.leftArrow_id);
+            btnVerification = FindViewById<Button>(Resource.Id.verification_id);
+            editTextVcode = FindViewById<EditText>(Resource.Id.editText_vcode_id);        
+                      
 
                 btnVerification.Click += (sender, e) =>
             {
-                // var obj = JsonConvert.DeserializeObject<int>(Intent.GetStringExtra("rcs"));
-                // get device id
-
-               
+               //add the api               
                 String getusr = Android.Provider.Settings.Secure.GetString(Android.App.Application.Context.ContentResolver, Android.Provider.Settings.Secure.AndroidId);
 
                 if (CrossConnectivity.Current.IsConnected)
@@ -108,13 +94,13 @@ namespace KoombioStaff
                 
 
             };
+            //end api
 
-
-            imageViewBackArrow.Click += (sender, e) =>
-            {
-                Intent i = new Intent(this, typeof(ForgotPasswordpageActivity));
-                StartActivity(i);
-            };
+                imageViewBackArrow.Click += (sender, e) =>
+                {
+                    Intent i = new Intent(this, typeof(ForgotPasswordpageActivity));
+                    StartActivity(i);
+                };
 
 
             //add the toolbar
@@ -122,9 +108,7 @@ namespace KoombioStaff
             SetSupportActionBar(toolbar);
             SupportActionBar.Title = "                  Koombio Staff";
 
-        }
-
-       
+        }       
       
     
 

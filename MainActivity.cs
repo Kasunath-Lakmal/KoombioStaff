@@ -29,10 +29,7 @@ namespace KoombioStaff
                 // intent.PutExtra("IMEI");
                      StartActivity(intent);
 
-                 }, TaskScheduler.FromCurrentSynchronizationContext());
-
-
-         
+                 }, TaskScheduler.FromCurrentSynchronizationContext());         
         }
 
      

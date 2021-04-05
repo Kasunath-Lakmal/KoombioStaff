@@ -14,7 +14,6 @@ using Newtonsoft.Json;
 
 namespace KoombioStaff
 {
-
     [Activity(Label = "LoginActivity")]
     public class LoginActivity : AppCompatActivity
 
@@ -28,16 +27,13 @@ namespace KoombioStaff
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Loginpage);
             editUsername = FindViewById<EditText>(Resource.Id.user_name);
-            editPassword = FindViewById<EditText>(Resource.Id.user_password);
-           
+            editPassword = FindViewById<EditText>(Resource.Id.user_password);          
 
             editUsername = FindViewById<EditText>(Resource.Id.user_name);
             editPassword = FindViewById<EditText>(Resource.Id.user_name);
             btn_forgot = FindViewById<Button>(Resource.Id.fpassword_id);
             btn_login = FindViewById<Button>(Resource.Id.btn_login_id);
-
-            
-            
+                                   
 
             btn_login.Click += (sender, e) =>
             {
@@ -84,7 +80,6 @@ namespace KoombioStaff
                             intent.PutExtra("user_id", Convert.ToString(users.user_id));
                             StartActivity(intent);
 
-
                         }
 
                     }
@@ -93,7 +88,7 @@ namespace KoombioStaff
 
                 }
 
-                //end api       
+                //end api     
 
             };
 
