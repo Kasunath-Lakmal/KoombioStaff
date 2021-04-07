@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
   <group android:checkableBehavior="single">
-    <!--<item
+   <item
       android:id="@+id/nav_home"
       android:icon="@drawable/ic_dashboard"
-      android:title="Home" />-->
+      android:title="Home" />
     <item
       android:id="@+id/nav_Total_pickups"
       android:icon="@drawable/ic_event"

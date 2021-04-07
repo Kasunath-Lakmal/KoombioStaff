@@ -17,11 +17,8 @@ namespace KoombioStaff
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);     
-            SetContentView(Resource.Layout.activity_main);
-
-          
-
-
+            SetContentView(Resource.Layout.activity_main);          
+            
             Task.Factory.StartNew(() => Thread.Sleep(10 * 500))
                  .ContinueWith((t) =>
                  {

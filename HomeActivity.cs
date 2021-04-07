@@ -26,7 +26,8 @@ namespace KoombioStaff
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Homepage);
-           //stat to menu
+            
+            //stat to menu
 
             drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawerLayout_id);
             var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
@@ -34,9 +35,8 @@ namespace KoombioStaff
             SupportActionBar.Title = "     Select Your Option   ";
 
             var drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, Resource.String.drawer_open, Resource.String.drawer_close);
-            drawerLayout.SetDrawerListener(drawerToggle);
+            //drawerLayout.SetDrawerListener(drawerToggle);
             drawerToggle.SyncState();
-
             navigationView = FindViewById<NavigationView>(Resource.Id.navigationView_id);
             SetupDrawerContent(navigationView);
             View header = navigationView.GetHeaderView(0);
@@ -50,35 +50,44 @@ namespace KoombioStaff
         //side menu item clicked
         private void SetupDrawerContent(NavigationView navigationView)
         {
+
             navigationView.NavigationItemSelected += (sender, e) =>
             {
                 e.MenuItem.SetChecked(true);
                 FragmentTransaction ft = this.FragmentManager.BeginTransaction();
-               
-                 if (e.MenuItem.ItemId == Resource.Id.nav_Total_pickups)
+
+                if (e.MenuItem.ItemId == Resource.Id.nav_Total_pickups)
                 {
                     TotalPikupsFragment mf = new TotalPikupsFragment();
-                    ft.Replace(Resource.Id.linear1, mf);
+                    ft.Add(Resource.Id.framelayout_id, mf);
+                   // ft.AddToBackStack(null);
+                    ft.Commit();
                 }
 
                 else if (e.MenuItem.ItemId == Resource.Id.nav_pendin)
                 {
                     PendinFragment cf = new PendinFragment();
-                   ft.Replace(Resource.Id.linear1, cf);
+                    ft.Add(Resource.Id.framelayout_id, cf);
+                    //ft.AddToBackStack(null);
+                    ft.Commit();
                 }
 
                 else if (e.MenuItem.ItemId == Resource.Id.nav_picked)
                 {
                     PickedFragment lf = new PickedFragment();
-                    ft.Replace(Resource.Id.linear1, lf);
+                    ft.Add(Resource.Id.framelayout_id, lf);
+                    //ft.AddToBackStack(null);                   
+                    ft.Commit();
                 }
+                else if (e.MenuItem.ItemId == Resource.Id.nav_home)
+                {
+                    Intent i = new Intent(this, typeof(HomeActivity));
+                    StartActivity(i);
+                }                
+                // ft.Commit();
 
-               
-                ft.Commit();
-                drawerLayout.CloseDrawers();
             };
         }
-
             public override bool OnCreateOptionsMenu(IMenu menu)
             {
                 navigationView.InflateMenu(Resource.Menu.menu_main);

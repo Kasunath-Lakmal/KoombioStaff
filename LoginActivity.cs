@@ -20,7 +20,7 @@ namespace KoombioStaff
     {
         private EditText editUsername, editPassword;
         private Button btn_forgot, btn_login;
-      
+        private ProgressBar pb;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -32,12 +32,11 @@ namespace KoombioStaff
             editUsername = FindViewById<EditText>(Resource.Id.user_name);
             editPassword = FindViewById<EditText>(Resource.Id.user_name);
             btn_forgot = FindViewById<Button>(Resource.Id.fpassword_id);
-            btn_login = FindViewById<Button>(Resource.Id.btn_login_id);
-                                   
+            btn_login = FindViewById<Button>(Resource.Id.btn_login_id);           
+            pb = FindViewById<ProgressBar>(Resource.Id.pd_id);                        
 
             btn_login.Click += (sender, e) =>
-            {
-               
+            {               
                 //add api
 
                 using (var client = new HttpClient())
@@ -79,16 +78,11 @@ namespace KoombioStaff
                             Intent intent = new Intent(this, typeof(HomeActivity));
                             intent.PutExtra("user_id", Convert.ToString(users.user_id));
                             StartActivity(intent);
-
                         }
-
                     }
-
                     //  Toast.MakeText(Application.Context, res, ToastLength.Long).Show();
-
                 }
-
-                //end api     
+                //end api   
 
             };
 
@@ -105,9 +99,7 @@ namespace KoombioStaff
             SetSupportActionBar(toolbar);
             SupportActionBar.Title= "                  Koombio Staff"        ;
             
-        }
-
-       
+        }       
             //add the tool bar
             public override bool OnCreateOptionsMenu(IMenu menu)
             {

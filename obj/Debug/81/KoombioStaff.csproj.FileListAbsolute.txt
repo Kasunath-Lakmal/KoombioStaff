@@ -1,11 +1,11 @@
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\KoombioStaff.dll
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\KoombioStaff.pdb
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\KoombioStaff.KoombioStaff.apk
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\KoombioStaff.KoombioStaff-Signed.apk
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\KoombioStaff.nuget.stamp
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\libraryimports.cache.stamp
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res.flag
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\KoombioStaff.dll
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\KoombioStaff.pdb
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\KoombioStaff.KoombioStaff.apk
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\bin\Debug\KoombioStaff.KoombioStaff-Signed.apk
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\KoombioStaff.csproj.CoreCompileInputs.cache
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\KoombioStaff.dll
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\KoombioStaff.pdb
@@ -104,6 +104,7 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layo
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layout\pickedlayout.xml
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layout\changepasswordlayout.xml
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\drawable\splash_screen_bg.xml
+E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\res\layout\homepagedesign.xml
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\R.cs.flag
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\R.txt
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\uploadflags.txt
@@ -169,4 +170,3 @@ E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Web.Services.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Xml.Linq.pdb
 E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\android\assets\System.Xml.pdb
-E:\GITHUB REAL STAFF ANDROID APP\KoombioStaff\KoombioStaff\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb

@@ -99,6 +99,13 @@
 						android:background = "@drawable/roundedbutton"
 						android:layout_marginTop="20dp"/>
 
+					<ProgressBar
+						android:id="@+id/pd_id"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:layout_gravity="center"
+						android:layout_marginTop="20dp"/>
+
 				</LinearLayout>
 
 			 </FrameLayout>
