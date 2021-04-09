@@ -14,6 +14,7 @@
     <color name ="descolor">#615f5f</color>
 
   <color name ="background">#bababa</color>
+  <color name ="background">#bababa</color>
   <!--<color name ="fogetbgcolor">#7695ad</color>-->
   <color name ="whitecolor">#ffffff</color>
   <color name ="redcolor">#d94d43</color>
@@ -23,6 +24,8 @@
   
   <!--Dashboard color-->
   <color name ="dbcolor1">#ffff05</color>
+  <color name ="colors">#6216db</color>
+  <color name ="colors2">#ebebeb</color>
 
 
 </resources>

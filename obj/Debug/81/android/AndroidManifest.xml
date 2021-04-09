@@ -7,15 +7,18 @@
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
     <activity android:label="ChangePasswordlayoutActivity" android:name="md56c540550698097c3be8ebfb28b50734c.ChangePasswordlayoutActivity" />
+    <activity android:label="PendinActivity" android:name="md56c540550698097c3be8ebfb28b50734c.PendinActivity" />
     <activity android:label="ForgotPasswordpageActivity" android:name="md56c540550698097c3be8ebfb28b50734c.ForgotPasswordpageActivity" />
     <activity android:label="HomeActivity" android:name="md56c540550698097c3be8ebfb28b50734c.HomeActivity" />
     <activity android:label="LoginActivity" android:name="md56c540550698097c3be8ebfb28b50734c.LoginActivity" />
+    <activity android:label="PickedActivity" android:name="md56c540550698097c3be8ebfb28b50734c.PickedActivity" />
     <activity android:label="@string/app_name" android:theme="@style/AppTheme" android:name="md56c540550698097c3be8ebfb28b50734c.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="TotalPikups" android:name="md56c540550698097c3be8ebfb28b50734c.TotalPikups" />
     <activity android:label="RecoverySelectionActivity" android:name="md56c540550698097c3be8ebfb28b50734c.VerificationPageActivity" />
     <receiver android:enabled="true" android:label="Connectivity Plugin Broadcast Receiver" android:name="md59628c2715c1bb8febcc7ae8402df0582.ConnectivityChangeBroadcastReceiver" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="KoombioStaff.KoombioStaff.mono.MonoRuntimeProvider.__mono_init__" />

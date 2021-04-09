@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-	android:id="@+id/pendinPage_id">
-    <TextView
+     android:orientation="vertical"
+    android:layout_width="match_parent"		
+    android:layout_height="match_parent">
+
+	<android.support.v4.widget.DrawerLayout
+	    xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/drawerLayout_id"
+		android:layout_height="match_parent"
+		android:layout_width="fill_parent"
+		android:fitsSystemWindows="true">
+			
+		 <FrameLayout android:id="@+id/framelayout_id"
+			android:layout_height="match_parent"
+			android:background="@drawable/Gradient_Background"
+			android:layout_width="match_parent">
+
+			<include
+				layout="@layout/toolbar"/>
+
+			<LinearLayout
+				android:id="@+id/linear1"
+				android:layout_marginTop="55dp"				
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+
+				
+			 </LinearLayout>
+
+			<TextView
         android:id="@+id/text_view_id"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_width="wrap_content"
-        android:text="my picked fragment layout"
+        android:text="Pending layout"
 	    android:layout_gravity="center"/>
+
+         </FrameLayout>
+
+		<android.support.design.widget.NavigationView
+			android:id="@+id/navigationView_id"
+			android:layout_height="match_parent"
+			android:layout_width="300dp"
+			android:layout_gravity="start"			
+			app:headerLayout="@layout/nav_header" />		
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+
 </LinearLayout>

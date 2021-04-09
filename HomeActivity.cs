@@ -9,7 +9,6 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using V7Toolbar = Android.Support.V7.Widget.Toolbar;
 using System;
-
 namespace KoombioStaff
 {
     [Activity(Label = "HomeActivity")]
@@ -19,6 +18,7 @@ namespace KoombioStaff
 
         private DrawerLayout drawerLayout;
         private NavigationView navigationView;
+        private Button btn_total_pickups, btn_picked, btn_pendin;
 
         #endregion Menu
 
@@ -26,7 +26,29 @@ namespace KoombioStaff
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.Homepage);
-            
+
+            btn_total_pickups = FindViewById<Button>(Resource.Id.btn_total_pickups);           
+            btn_picked = FindViewById<Button>(Resource.Id.btn_picked);
+            btn_pendin = FindViewById<Button>(Resource.Id.btn_pendin);
+
+            btn_total_pickups.Click += (sender, e) =>
+            {
+                Intent i = new Intent(this, typeof(TotalPikups));
+                StartActivity(i);
+            };
+
+            btn_picked.Click += (sender, e) =>
+            {
+                Intent i = new Intent(this, typeof(PickedActivity));
+                StartActivity(i);
+            };
+
+            btn_pendin.Click += (sender, e) =>
+            {
+                Intent i = new Intent(this, typeof(PendinActivity));
+                StartActivity(i);
+            };
+
             //stat to menu
 
             drawerLayout = FindViewById<DrawerLayout>(Resource.Id.drawerLayout_id);
@@ -42,8 +64,8 @@ namespace KoombioStaff
             View header = navigationView.GetHeaderView(0);
             TextView navheader_username = header.FindViewById<TextView>(Resource.Id.navheader_username);
             navheader_username.Text = "kasunath lakmal";
-          
-           //ent to Menu
+
+            //ent to Menu
         }
 
         #region Menu
@@ -54,46 +76,45 @@ namespace KoombioStaff
             navigationView.NavigationItemSelected += (sender, e) =>
             {
                 e.MenuItem.SetChecked(true);
-                FragmentTransaction ft = this.FragmentManager.BeginTransaction();
+                //FragmentTransaction ft = this.FragmentManager.BeginTransaction();
 
                 if (e.MenuItem.ItemId == Resource.Id.nav_Total_pickups)
                 {
-                    TotalPikupsFragment mf = new TotalPikupsFragment();
-                    ft.Add(Resource.Id.framelayout_id, mf);
-                   // ft.AddToBackStack(null);
-                    ft.Commit();
-                }
+                    Intent i = new Intent(this, typeof(TotalPikups));
+                    StartActivity(i);
 
-                else if (e.MenuItem.ItemId == Resource.Id.nav_pendin)
-                {
-                    PendinFragment cf = new PendinFragment();
-                    ft.Add(Resource.Id.framelayout_id, cf);
-                    //ft.AddToBackStack(null);
-                    ft.Commit();
                 }
 
                 else if (e.MenuItem.ItemId == Resource.Id.nav_picked)
                 {
-                    PickedFragment lf = new PickedFragment();
-                    ft.Add(Resource.Id.framelayout_id, lf);
-                    //ft.AddToBackStack(null);                   
-                    ft.Commit();
+                    Intent i = new Intent(this, typeof(PickedActivity));
+                    StartActivity(i);
+
                 }
+
+                else if (e.MenuItem.ItemId == Resource.Id.nav_pendin)
+                {
+                    Intent i = new Intent(this, typeof(PendinActivity));
+                    StartActivity(i);
+                }
+
                 else if (e.MenuItem.ItemId == Resource.Id.nav_home)
                 {
                     Intent i = new Intent(this, typeof(HomeActivity));
                     StartActivity(i);
-                }                
+                }
+
+
                 // ft.Commit();
 
             };
         }
-            public override bool OnCreateOptionsMenu(IMenu menu)
-            {
-                navigationView.InflateMenu(Resource.Menu.menu_main);
-                return true;
-            }
-            //end of menu
-            #endregion Menu
+        public override bool OnCreateOptionsMenu(IMenu menu)
+        {
+            navigationView.InflateMenu(Resource.Menu.menu_main);
+            return true;
+        }
+        //end of menu
+        #endregion Menu
     }
 }

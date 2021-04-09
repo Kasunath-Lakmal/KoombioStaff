@@ -59,13 +59,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChangePasswordlayoutActivity.cs" />
-    <Compile Include="PendinFragment.cs" />
+    <Compile Include="PendinActivity.cs" />
     <Compile Include="ForgotPasswordpageActivity.cs" />
     <Compile Include="HomeActivity.cs" />
     <Compile Include="LoginActivity.cs" />
-    <Compile Include="PickedFragment.cs" />
+    <Compile Include="PickedActivity.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="TotalPikupsFragment.cs" />
+    <Compile Include="TotalPikups.cs" />
     <Compile Include="usercollection.cs" />
     <Compile Include="VerificationPageActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
@@ -372,11 +372,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\splash_screen_bg.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\HomePageDesign.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -1364,6 +1364,12 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F060003
 			public const int colorPrimaryDark = 2131099651;
 			
+			// aapt resource value: 0x7F060014
+			public const int colors = 2131099668;
+			
+			// aapt resource value: 0x7F060015
+			public const int colors2 = 2131099669;
+			
 			// aapt resource value: 0x7F060005
 			public const int colorWhite = 2131099653;
 			
@@ -1433,8 +1439,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F06003A
 			public const int highlighted_text_material_light = 2131099706;
 			
-			// aapt resource value: 0x7F060014
-			public const int ic_launcher_background = 2131099668;
+			// aapt resource value: 0x7F060016
+			public const int ic_launcher_background = 2131099670;
 			
 			// aapt resource value: 0x7F06003B
 			public const int material_blue_grey_800 = 2131099707;
@@ -2525,8 +2531,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0016
 			public const int alertTitle = 2131492886;
 			
-			// aapt resource value: 0x7F020031
-			public const int appbar = 2130837553;
+			// aapt resource value: 0x7F020032
+			public const int appbar = 2130837554;
 			
 			// aapt resource value: 0x7F0C0006
 			public const int async = 2131492870;
@@ -2546,11 +2552,20 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F020007
 			public const int btn_id = 2130837511;
 			
-			// aapt resource value: 0x7F020023
-			public const int btn_login_id = 2130837539;
+			// aapt resource value: 0x7F020026
+			public const int btn_login_id = 2130837542;
+			
+			// aapt resource value: 0x7F020019
+			public const int btn_pendin = 2130837529;
+			
+			// aapt resource value: 0x7F020018
+			public const int btn_picked = 2130837528;
 			
 			// aapt resource value: 0x7F020012
 			public const int btn_submit_id = 2130837522;
+			
+			// aapt resource value: 0x7F020017
+			public const int btn_total_pickups = 2130837527;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int buttonPanel = 2131492891;
@@ -2642,8 +2657,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F020009
 			public const int forgot_pwdimg_id = 2130837513;
 			
-			// aapt resource value: 0x7F020022
-			public const int fpassword_id = 2130837538;
+			// aapt resource value: 0x7F020025
+			public const int fpassword_id = 2130837541;
 			
 			// aapt resource value: 0x7F020014
 			public const int framelayout_id = 2130837524;
@@ -2699,8 +2714,8 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0041
 			public const int list_item = 2131492929;
 			
-			// aapt resource value: 0x7F020030
-			public const int main_content = 2130837552;
+			// aapt resource value: 0x7F020031
+			public const int main_content = 2130837553;
 			
 			// aapt resource value: 0x7F0C0042
 			public const int masked = 2131492930;
@@ -2723,11 +2738,11 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0046
 			public const int multiply = 2131492934;
 			
-			// aapt resource value: 0x7F020026
-			public const int navheader_username = 2130837542;
+			// aapt resource value: 0x7F020029
+			public const int navheader_username = 2130837545;
 			
-			// aapt resource value: 0x7F020017
-			public const int navigationView_id = 2130837527;
+			// aapt resource value: 0x7F020020
+			public const int navigationView_id = 2130837536;
 			
 			// aapt resource value: 0x7F0C0047
 			public const int navigation_header_container = 2131492935;
@@ -2777,17 +2792,11 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C004F
 			public const int parent_matrix = 2131492943;
 			
-			// aapt resource value: 0x7F020024
-			public const int pd_id = 2130837540;
-			
 			// aapt resource value: 0x7F020027
-			public const int pendinPage_id = 2130837543;
+			public const int pd_id = 2130837543;
 			
-			// aapt resource value: 0x7F020025
-			public const int pic = 2130837541;
-			
-			// aapt resource value: 0x7F020029
-			public const int pickedPage_id = 2130837545;
+			// aapt resource value: 0x7F020028
+			public const int pic = 2130837544;
 			
 			// aapt resource value: 0x7F0C0050
 			public const int pin = 2131492944;
@@ -2933,17 +2942,17 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C007C
 			public const int textSpacerNoTitle = 2131492988;
 			
-			// aapt resource value: 0x7F020018
-			public const int textView1 = 2130837528;
+			// aapt resource value: 0x7F020021
+			public const int textView1 = 2130837537;
 			
-			// aapt resource value: 0x7F020019
-			public const int textView2 = 2130837529;
+			// aapt resource value: 0x7F020022
+			public const int textView2 = 2130837538;
 			
 			// aapt resource value: 0x7F0C007D
 			public const int text_input_password_toggle = 2131492989;
 			
-			// aapt resource value: 0x7F020028
-			public const int text_view_id = 2130837544;
+			// aapt resource value: 0x7F020030
+			public const int text_view_id = 2130837552;
 			
 			// aapt resource value: 0x7F0C0019
 			public const int time = 2131492889;
@@ -2972,9 +2981,6 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C0085
 			public const int topPanel = 2131492997;
 			
-			// aapt resource value: 0x7F020032
-			public const int totalPage_id = 2130837554;
-			
 			// aapt resource value: 0x7F0C0086
 			public const int touch_outside = 2131492998;
 			
@@ -3002,11 +3008,11 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0C008D
 			public const int up = 2131493005;
 			
-			// aapt resource value: 0x7F020020
-			public const int user_name = 2130837536;
+			// aapt resource value: 0x7F020023
+			public const int user_name = 2130837539;
 			
-			// aapt resource value: 0x7F020021
-			public const int user_password = 2130837537;
+			// aapt resource value: 0x7F020024
+			public const int user_password = 2130837540;
 			
 			// aapt resource value: 0x7F020036
 			public const int verification_id = 2130837558;
@@ -3209,13 +3215,10 @@ namespace KoombioStaff
 			public const int Homepage = 2130903045;
 			
 			// aapt resource value: 0x7F030006
-			public const int HomePageDesign = 2130903046;
+			public const int Loginpage = 2130903046;
 			
 			// aapt resource value: 0x7F030007
-			public const int Loginpage = 2130903047;
-			
-			// aapt resource value: 0x7F030008
-			public const int Nav_header = 2130903048;
+			public const int Nav_header = 2130903047;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
@@ -3262,11 +3265,11 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F030009
-			public const int Pendinlayout = 2130903049;
+			// aapt resource value: 0x7F030008
+			public const int Pendinlayout = 2130903048;
 			
-			// aapt resource value: 0x7F030010
-			public const int Pickedlayout = 2130903056;
+			// aapt resource value: 0x7F030009
+			public const int Pickedlayout = 2130903049;
 			
 			// aapt resource value: 0x7F0F0038
 			public const int select_dialog_item_material = 2131689528;
@@ -3280,17 +3283,17 @@ namespace KoombioStaff
 			// aapt resource value: 0x7F0F003B
 			public const int support_simple_spinner_dropdown_item = 2131689531;
 			
-			// aapt resource value: 0x7F030011
-			public const int toolbar = 2130903057;
+			// aapt resource value: 0x7F030010
+			public const int toolbar = 2130903056;
 			
 			// aapt resource value: 0x7F0F003C
 			public const int tooltip = 2131689532;
 			
-			// aapt resource value: 0x7F030012
-			public const int TotalPickupslayout = 2130903058;
+			// aapt resource value: 0x7F030011
+			public const int TotalPickupslayout = 2130903057;
 			
-			// aapt resource value: 0x7F030013
-			public const int VerificationPage = 2130903059;
+			// aapt resource value: 0x7F030012
+			public const int VerificationPage = 2130903058;
 			
 			static Layout()
 			{
