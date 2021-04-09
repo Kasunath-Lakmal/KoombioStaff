@@ -30,11 +30,12 @@
 				<TextView    
 					android:layout_height="wrap_content"
 					android:layout_width="match_parent"
-					android:text="  Delivery"
+					android:text="Delivery"
 					android:textSize="28dp"
 					android:background="@color/dbcolor1"
 					android:textStyle="bold"
-					android:textColor="@color/bgcolor"/>
+					android:textColor="@color/bgcolor"
+					android:gravity="center"/>
 
 				<android.support.v7.widget.RecyclerView
 					android:id="@+id/recyclerView"
@@ -45,19 +46,20 @@
 				<TextView 
 					android:layout_height="wrap_content"
 					android:layout_width="match_parent"
-		            android:text="  Pickups  "
-					android:background="@color/dbcolor1"
-					android:textSize="28dp"				
+					android:text="Pickups"
+					android:textSize="28dp"
+					android:background="@color/whitecolor"
 					android:textStyle="bold"
-					android:textColor="@color/bgcolor"/>
+					android:textColor="@color/bgcolor"
+					android:gravity="center"/>
 
 				 <ScrollView 
 					xmlns:android="http://schemas.android.com/apk/res/android"
 					android:layout_width="match_parent"
-					android:layout_height="wrap_content"
+					android:layout_height="match_parent"
 					android:fillViewport="false">
 
-					<LinearLayout 
+					<RelativeLayout 
 						xmlns:android="http://schemas.android.com/apk/res/android"
 						android:orientation="vertical" 
 						android:layout_width="match_parent"
@@ -65,47 +67,45 @@
     
 						<Button
 							android:id="@+id/btn_total_pickups"
-							android:layout_width="match_parent"
-							android:layout_height="160dp"
+							android:layout_width="150dp"
+							android:layout_height="150dp"
 							android:textSize="24dp"							
 							android:textStyle="bold"
 							android:background="@color/colors2"
 							android:textColor="@color/colors"
-							android:layout_marginLeft="10dp"
-							android:layout_marginRight="10dp"
-							android:layout_gravity="center"
-							android:layout_marginTop="10dp"
-							android:text="Total Pickups" />
+							android:layout_marginLeft="15dp"
+							android:layout_marginRight="5dp"							
+							android:layout_marginTop="20dp"
+							android:text="Total
+						                  Pickups" />
 
 						<Button 
 							android:id="@+id/btn_picked"
-							android:layout_width="match_parent"
-							android:layout_height="160dp"
-							android:textSize="24dp"							
-							android:textStyle="bold"
-							android:background="@color/colors2"
+							android:layout_width="150dp"
+							android:layout_height="150dp"
+							android:textSize="24dp"
 							android:textColor="@color/colors"
-							android:layout_marginLeft="10dp"
-							android:layout_marginRight="10dp"
-							android:layout_gravity="center"
-							android:layout_marginTop="10dp"
+							android:layout_marginLeft="190dp"											
+							android:background="@color/colors2"
+							android:textStyle="bold"							
+							android:layout_marginTop="20dp"
 							android:text="Picked" />
 
 						<Button
 							android:id="@+id/btn_pendin"
-							android:layout_width="match_parent"
-							android:layout_height="160dp"
-							android:textSize="24dp"							
-							android:textStyle="bold"
-							android:background="@color/colors2"
+							android:layout_width="150dp"
+							android:layout_height="150dp"
+							android:textSize="24dp"
 							android:textColor="@color/colors"
-							android:layout_marginLeft="10dp"
-							android:layout_marginRight="10dp"
+							android:background="@color/colors2"
+							android:textStyle="bold"						
+							android:layout_marginLeft="15dp"							
 							android:layout_gravity="center"
-							android:layout_marginTop="10dp"
+							android:layout_marginTop="200dp"
+							android:layout_marginBottom="20dp"
 							android:text="Pendin" />
     
-                    </LinearLayout>
+                    </RelativeLayout>
 
                  </ScrollView>
 
